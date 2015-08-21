@@ -1,0 +1,72 @@
+/* top area */
+#top-area .container {
+  width: 95%;
+}
+#top-area #logo {
+  min-width: 0;
+  margin-top: 30px;
+  max-width: 180px;
+}
+#top-area #menu {
+  font-size: 1.1em;
+}
+#top-area #menu .menu-item {
+  margin-right: .8em;
+}
+#top-area #menu .menu-item-has-children a {
+  background-position: right -272px;
+}
+#top-area #menu .menu-item-has-children:hover a {
+  background-position: right -364px;
+}
+
+/* main */
+#main{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#content {
+  margin-right: 320px;
+}
+
+body.single #content,
+body.page #content {
+  margin-right: 0;
+}
+body.single #sidebar,
+body.page #sidebar {
+  display: none;
+}
+
+#slider .slider h3 {
+  font-size: 1em;
+}
+#slider .slider div {
+  display: none !important;
+}
+
+.post .post-thumb{
+  float:left;
+  max-width:200px;
+  max-height:124px;
+  overflow: hidden;
+  margin-right:1em;
+  margin-bottom: 1em;
+}
+
+/* footer */
+#footer .container {
+  width: 95%;
+  margin: 0 10px;
+}
+#footer .widget-box {
+  width: 45%;
+  margin-right: 5%;
+}
+#footer .widget.authors-with-avatar {
+  margin-right: 0;
+}
+#footer .widget.widget_links {
+  display: none;
+}
